@@ -26,5 +26,5 @@ bar.writeA(20);
 console.log(bar.readA()); // 20
 console.log(bar.a); // 20
 // bar has its own property a, because this property is created every time Bar constructor is invoked. This behaviour
-// allows different objects with their own property a, but inheriting "methods" from Bar.prototype.
+// allows to create different objects with their own property a, but inheriting "methods" from Bar.prototype.
                                      
